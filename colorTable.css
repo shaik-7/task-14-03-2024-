@@ -1,0 +1,25 @@
+.firstRows,#trio{
+    padding:5px 5px;
+    width:5px;
+    height: 5px;
+    border: 2px solid black;
+    border-radius: 2px;
+    border-spacing: 2px;
+    background-color: aquamarine;
+}
+.oddRows:hover{
+    background-color: red;
+    transition:400ms;
+}
+.oddRows{
+    background-color:whitesmoke;
+}
+.evenRows:hover{
+    background-color:blue;
+    transition:400ms;
+}
+table{
+    border-collapse:separate;
+    border-spacing:0px;
+}
+/*Border-Space: It is the attribute which is used to reduce border-gap between each td*/
